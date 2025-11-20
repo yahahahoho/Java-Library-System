@@ -30,3 +30,5 @@ public class Book {
         return "[" + id + "] " + title + (borrowed ? " (대출중)" : " (대출 가능)");
     }
 }
+// https://github.com/yahahahoho/Java-Library-System.git
+// 도서관 관리 프로젝트 v1.0 - Book 클래스

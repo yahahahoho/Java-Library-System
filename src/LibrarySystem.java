@@ -40,3 +40,5 @@ public class LibrarySystem {
         }
     }
 }
+// 도서관 관리 프로젝트 v1.0 - LibrarySystem 클래스
+// https://github.com/yahahahoho/Java-Library-System.git
