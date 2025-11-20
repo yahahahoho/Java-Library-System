@@ -46,6 +46,8 @@ public class Main {
             }
         }
 
+        //https://github.com/yahahahoho/Java-Library-System.git
+        //도서관 관리 프로젝트 v1.0개발
         sc.close();
     }
 }
