@@ -14,7 +14,7 @@ public class Main {
             System.out.print("메뉴 선택: ");
 
             int menu = sc.nextInt();
-            sc.nextLine();  // 버퍼 비우기
+            sc.nextLine();
 
             if (menu == 1) {
                 // [A] 도서 정보 저장

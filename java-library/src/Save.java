@@ -1,8 +1,8 @@
 public class Save {
-    private String title;      // 도서명
-    private String author;     // 저자
-    private String publisher;  // 출판사
-    private int year;          // 출판 연도
+    private String title;
+    private String author;
+    private String publisher;
+    private int year;
 
     public Save(String title, String author, String publisher, int year) {
         this.title = title;
