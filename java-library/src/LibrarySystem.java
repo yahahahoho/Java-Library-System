@@ -6,6 +6,16 @@ public class LibrarySystem {
 
     // [A] 도서 정보 저장
     public void addBook(String title, String author, String publisher, int year) {
+
+        if (title == null || title.isEmpty()
+                || author == null || author.isEmpty()
+                || publisher == null || publisher.isEmpty()
+                || year <= 0) {
+
+            System.out.println("저장에 실패했습니다.");
+            return;
+        }
+
         Save book = new Save(title, author, publisher, year);
         books.add(book);
         System.out.println("도서가 저장되었습니다.");
@@ -56,3 +66,4 @@ public class LibrarySystem {
         );
     }
 }
+
